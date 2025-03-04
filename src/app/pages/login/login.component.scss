@@ -42,6 +42,7 @@
 }
 
 .input-form{
+  outline: none;
   padding: 8px 10px;
   width: 100%;
   border-radius: 4px;
@@ -52,4 +53,11 @@
   &:focus{
     border: 1px solid var(--primary-color);
   }
+}
+
+.footer{
+  position: absolute;
+  bottom: 4px;
+  font-size: 10px;
+  color: var(--primary-color);
 }
